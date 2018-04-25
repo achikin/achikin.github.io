@@ -1,0 +1,39 @@
+div.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3.name {
+ font-family: Merriweather; 
+ font-size: 30
+}
+
+regular-text {
+  font-family: OpenSans;
+  font-size: 18;
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: underline;
+}
