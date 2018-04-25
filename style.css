@@ -6,12 +6,12 @@ div.centered {
 }
 
 h3.name {
- font-family: Merriweather; 
+ font-family: 'Merriweather', serif; 
  font-size: 30
 }
 
-regular-text {
-  font-family: OpenSans;
+.regular-text {
+  font-family: 'OpenSans', sans-serif;
   font-size: 18;
 }
 
@@ -36,4 +36,22 @@ a:hover {
 a:active {
     color: black;
     text-decoration: underline;
+}
+
+.table {
+  font-size: 15px;
+  line-height: 25px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 5px 10px;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 0 0 2px;
+}
+
+.table > div:nth-child(2n+1) {
+  font-weight: 300;
 }
