@@ -32,13 +32,13 @@ a:active {
 }
 
 .table {
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 15px;
+  line-height: 35px;
   display: flex;
   flex-direction: column;
 }
 
-@media (min-width: 600px) {
+@media (min-device-width: 600px) {
 .table {
   font-size: 15px;
   line-height: 25px;
