@@ -6,7 +6,7 @@ div.centered {
 }
 
 h3.name {
- font-family: 'Merriweather', serif; 
+ font-family: 'OpenSans', serif; 
  font-size: 30
 }
 
@@ -47,7 +47,7 @@ a:active {
 }
 
 .page {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 0 0 2px;
 }
