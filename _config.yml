@@ -19,9 +19,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Anton Chikin's personal blog about engineering, functional programming
   and life in general.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://achikin.com"
 twitter_username: kverlin
 github_username: achikin
+
+author:
+  name: Anton Chikin
+  url: http://achikin.com
+  email: anton.m.chikin@gmail.com
 
 # Build settings
 markdown: kramdown
